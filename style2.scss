@@ -1,0 +1,154 @@
+$align: (
+    'l':left,
+    'c': center,
+    'r': right,
+);
+
+.start {
+    text-align: map-get($align, c);
+}
+
+header {
+    text-align: map-get($align, c);
+    margin-top: 40px;
+}
+
+.title1 {
+    text-align: map-get($align, l);
+    margin-bottom: 60px;
+}
+
+
+
+
+.picture1 {
+    justify-content: left;
+    align-items: left;
+    margin-top: 5px;
+    margin-right: 76px;
+}
+
+.desc1 {
+    text-align: map-get($align, l);
+}
+
+.picture2 {
+    justify-content: right;
+    align-items: right;
+    margin-top: 5px;
+    margin-left: 76px;
+
+}
+
+.desc2 {
+    text-align: map-get($align, l);
+}
+
+.title2 {
+    text-align: map-get($align, l);
+    margin-bottom: 60px;
+}
+
+.title3 {
+    text-align: map-get($align, l);
+    margin-bottom: 60px;
+}
+
+
+
+
+.picture3 {
+    justify-content: left;
+    align-items: left;
+    margin-top: 5px;
+    margin-right: 76px;
+}
+
+.desc3 {
+    text-align: map-get($align, l);
+}
+
+.picture4 {
+    justify-content: right;
+    align-items: right;
+    margin-top: 5px;
+    margin-left: 76px;
+}
+
+.desc4 {
+    text-align: map-get($align, l);
+}
+
+.title4 {
+    text-align: map-get($align, l);
+    margin-bottom: 60px;
+}
+
+.title5 {
+    text-align: map-get($align, l);
+    margin-bottom: 60px;
+}
+
+
+
+
+.picture5 {
+    justify-content: left;
+    align-items: left;
+    margin-top: 5px;
+    margin-right: 76px;
+}
+
+.desc5 {
+    text-align: map-get($align, l);
+}
+
+.picture6 {
+    justify-content: right;
+    align-items: right;
+    margin-top: 5px;
+    margin-left: 76px;
+}
+
+.desc6 {
+    text-align: map-get($align, l);
+}
+
+.title6 {
+    text-align: map-get($align, l);
+    margin-bottom: 60px;
+}
+
+.title7 {
+    text-align: map-get($align, l);
+    margin-bottom: 60px;
+}
+
+
+
+
+.picture7 {
+    justify-content: left;
+    align-items: left;
+    margin-top: 5px;
+    margin-right: 76px;
+}
+
+.desc7 {
+    text-align: map-get($align, l);
+}
+
+.title {
+    text-align: map-get($align, c);
+    font-size: x-small;
+}
+
+.end {
+    text-align: map-get($align, c);
+    font-size: xx-small;
+}
+
+.text2 {
+    text-align: map-get($align, c);
+    font-size: x-small;
+}
